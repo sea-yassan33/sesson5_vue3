@@ -37,11 +37,26 @@
     <h2>V-text</h2>
     <p v-text="message"></p>
   </section>
+  <hr>
+  <section id="app6">
+    <p>{{message}}</p>
+    <p>{{number + 1}}</p>
+    <p>{{message.split('').reverse().join('')}}</p>
+    <p>{{ok ? 'YES' : 'NO'}}</p>
+  </section>
+  <hr>
+  <section id="app7">
+    <a v-bind:href="url">Link1</a>
+    <br>
+    <a :href="url">Link1</a>
+  </section>
   <script src="https://unpkg.com/vue@3.1.5"></script>
   <script src="js/v_once.js"></script>
   <script src="js/v_pre.js"></script>
   <script src="js/v_html.js"></script>
   <script src="js/v_cloak.js"></script>
   <script src="js/v_text.js"></script>
+  <script src="js/js_official.js"></script>
+  <script src="js/v_bind_sc.js"></script>
 </body>
 </html>
