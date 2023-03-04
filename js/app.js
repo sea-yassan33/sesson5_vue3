@@ -1,6 +1,6 @@
-const app = Vue.createApp({
+const app0 = Vue.createApp({
   data: () => ({
     
   })
 })
-app.mount('#app')
+app0.mount('#app')
