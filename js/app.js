@@ -3,4 +3,4 @@ const app0 = Vue.createApp({
     
   })
 })
-app0.mount('#app')
+app0.mount('#app0')
